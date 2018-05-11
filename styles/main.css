@@ -10,7 +10,7 @@
 .Menu>ul{
   text-align: center;
   background-color: rgb(93, 211, 205);
-  padding: 25px 25px ;
+  padding: 15px 15px ;
 }
 .Menu>ul:nth-child(1){
   text-align: center;
@@ -20,7 +20,7 @@
   position: relative;
   display: inline-block;
   text-align: center;
-  width: 173px;
+  width: 170px;
   transition: .3s;
 }
  .Menu img{
@@ -33,7 +33,7 @@
 		margin:auto;
 		width:100%;
     font-family: 'Titan One', cursive;
-    font-size: 30px;
+    font-size: 28px;
 
 }
 .nav > li {
@@ -61,6 +61,7 @@
 
 }
 div h1{
+
   background-color: transparent;
   color: white;
   padding:  2px;
@@ -91,7 +92,7 @@ section li{
   width: 250px;
   height: 350px;
   display: inline-block;
-  margin: 30px 40px 6px 4px;
+  margin: 30px 40px 6px 40px;
   text-align: center;
   border: solid 10px black;
   position: relative;
@@ -111,5 +112,576 @@ section li h1{
   color: black;
   background-color: transparent;
 
+}
+
+.destacadas section li{
+ width: 250px;
+ height: 350px;
+ display: inline-block;
+ margin: 30px 40px 6px 40px;
+ text-align: center;
+ border: solid 10px black;
+ position: relative;
+
 
 }
+.destacadas section li a{
+ color: black;
+ background-color: transparent;
+ text-decoration: none;
+ font-size: 15px;
+ font-family: fantasy;
+ text-align: center;
+
+}
+.destacadas section li h1{
+ color: black;
+ background-color: transparent;
+
+
+}
+/*page drama*/
+
+nav:nth-child(3) {
+  display: block;
+  width: 100%;
+  height: 600px; 
+  overflow: hidden;
+  position: relative;
+ }
+
+nav:nth-child(3) > *{
+  display: block;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  animation: slide 10s infinite;
+  position: absolute;
+  }
+
+  .drama>slide:nth-child(1){
+    animation-delay: -1s;
+    background-image: url(../assets/elsecretodesusojos.png);
+    background-size: cover;
+    background-position: center;
+  }
+  .drama>slide:nth-child(2){
+    animation-delay: 2s;
+    background-image: url(../assets/elhilodrama.png);
+    background-size: cover;
+    background-position: center;
+  }
+  .drama>slide:nth-child(3){
+    animation-delay: 4s;
+    background-image: url(../assets/megandrama.png);
+    background-size: cover;
+    background-position: center;
+  }
+  .drama>slide:nth-child(4){
+    animation-delay: 6s;
+    background-image: url(../assets/lacabañadrama.png);
+    background-size: cover;
+    background-position: center;
+  }
+  .drama>slide:nth-child(5){
+    animation-delay: 8s;
+    background-image: url(../assets/titanicdrama.png);
+    background-size: cover;
+    background-position: center;
+  }
+  .drama>slide:nth-child(6){
+    animation-delay: 10s;
+    background-image: url(../assets/Logandrama.png);
+    background-size: cover;
+    background-position: center;
+  
+  }
+  slide p {
+  font-family: Comfortaa;
+  font-size: 80px;
+  text-align: center;
+  display:inline-block;
+  width: 100%;
+  margin-top: 10px;
+  color: white;
+  background-color: transparent;
+  }
+@keyframes slide {
+  0%{ left: 200%; width: 100%;}
+  5%{ left: 0%; }
+  25%{ left: 0%;}
+  30%{ left: -100%; width: 100%;}
+  30.0001%{ left: -100%; width: 0%;}
+  100%{ left: 100%; width: 0%;}
+}
+
+/*page Comedia*/
+
+nav:nth-child(3) {
+  display: block;
+  width: 100%;
+  height: 600px;
+  
+  overflow: hidden;
+  position: relative;
+ }
+
+ nav:nth-child(3) > *{
+  display: block;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  animation: slide 10s infinite;
+  position: absolute;
+ }
+  .comedia>slide:nth-child(1){
+    animation-delay: -1s;
+    background-image: url(../assets/conejo,png.jpg);
+    background-size: cover;
+    background-position: center;
+  }
+  .comedia>slide:nth-child(2){
+    animation-delay: 2s;
+    background-image: url(../assets/labatalladelossexos.png);
+    background-size: cover;
+    background-position: center;
+  }
+  .comedia>slide:nth-child(3){
+    animation-delay: 4s;
+    background-image: url(../assets/despidovoluntario.png);
+    background-size: cover;
+    background-position: center;
+  }
+  .comedia>slide:nth-child(4){
+    animation-delay: 6s;
+    background-image: url(../assets/guerradepapas.png);
+    background-size: cover;
+    background-position: center;
+  }
+  .comedia>slide:nth-child(5){
+    animation-delay: 8s;
+    background-image: url(../assets/pajaroloco.png);
+    background-size: cover;
+    background-position: center;
+  }
+  .comedia>slide:nth-child(6){
+    animation-delay: 10s;
+    background-image: url(../assets/unanocheconmisuegro.png);
+    background-size: cover;
+    background-position: center;
+  
+  }
+slide p {
+  font-family: Comfortaa;
+  font-size: 80px;
+  text-align: center;
+  display:inline-block;
+  width: 100%;
+  margin-top: 10px;
+  color: white;
+  background-color: transparent;
+}
+@keyframes slide {
+  0%{ left: 200%; width: 100%;}
+  5%{ left: 0%; }
+  25%{ left: 0%;}
+  30%{ left: -100%; width: 100%;}
+  30.0001%{ left: -100%; width: 0%;}
+  100%{ left: 100%; width: 0%;}
+}
+
+/*page Accion*/
+
+nav:nth-child(3) {
+  display: block;
+  width: 100%;
+  height: 600px;
+  
+  overflow: hidden;
+  position: relative;
+ }
+
+ nav:nth-child(3) > *{
+  display: block;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  animation: slide 10s infinite;
+  position: absolute;
+ }
+  .accion>slide:nth-child(1){
+    animation-delay: -1s;
+    background-image: url(../assets/escuadronsuicida.png);
+    background-size: cover;
+    background-position: center;
+  }
+  .accion>slide:nth-child(2){
+    animation-delay: 2s;
+    background-image: url(../assets/elpasajero.png);
+    background-size: cover;
+    background-position: center;
+  }
+  .accion>slide:nth-child(3){
+    animation-delay: 4s;
+    background-image: url(../assets/deepbluesea2.png);
+    background-size: cover;
+    background-position: center;
+  }
+  .accion>slide:nth-child(4){
+    animation-delay: 6s;
+    background-image: url(../assets/mazerunner.png);
+    background-size: cover;
+    background-position: center;
+  }
+  .accion>slide:nth-child(5){
+    animation-delay: 8s;
+    background-image: url(../assets/samsom.png);
+    background-size: cover;
+    background-position: center;
+  }
+  .accion>slide:nth-child(6){
+    animation-delay: 10s;
+    background-image: url(../assets/estoreciencomienza-png.jpg);
+    background-size: cover;
+    background-position: center;
+  
+  }
+slide p {
+  font-family: Comfortaa;
+  font-size: 80px;
+  text-align: center;
+  display:inline-block;
+  width: 100%;
+  margin-top: 10px;
+  color: white;
+  background-color: transparent;
+}
+@keyframes slide {
+  0%{ left: 200%; width: 100%;}
+  5%{ left: 0%; }
+  25%{ left: 0%;}
+  30%{ left: -100%; width: 100%;}
+  30.0001%{ left: -100%; width: 0%;}
+  100%{ left: 100%; width: 0%;}
+}
+
+/*page Fantasia*/
+
+nav:nth-child(3) {
+  display: block;
+  width: 100%;
+  height: 600px;
+  
+  overflow: hidden;
+  position: relative;
+ }
+
+ nav:nth-child(3) > *{
+  display: block;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  animation: slide 10s infinite;
+  position: absolute;
+ }
+  .fantasia>slide:nth-child(1){
+    animation-delay: -1s;
+    background-image: url(../assets/labellafantasia.png);
+    background-size: cover;
+    background-position: center;
+  }
+  .fantasia>slide:nth-child(2){
+    animation-delay: 2s;
+    background-image: url(../assets/pirats.png);
+    background-size: cover;
+    background-position: center;
+  }
+  .fantasia>slide:nth-child(3){
+    animation-delay: 4s;
+    background-image: url(../assets/latorreoscura.png);
+    background-size: cover;
+    background-position: center;
+  }
+  .fantasia>slide:nth-child(4){
+    animation-delay: 6s;
+    background-image: url(../assets/7deseos.png);
+    background-size: cover;
+    background-position: center;
+  }
+  .fantasia>slide:nth-child(5){
+    animation-delay: 8s;
+    background-image: url(../assets/laformadelagua.png);
+    background-size: cover;
+    background-position: center;
+  }
+  .fantasia>slide:nth-child(6){
+    animation-delay: 10s;
+    background-image: url(../assets/valerian.png);
+    background-size: cover;
+    background-position: center;
+  
+  }
+slide p {
+  font-family: Comfortaa;
+  font-size: 80px;
+  text-align: center;
+  display:inline-block;
+  width: 100%;
+  margin-top: 10px;
+  color: white;
+  background-color: transparent;
+}
+@keyframes slide {
+  0%{ left: 200%; width: 100%;}
+  5%{ left: 0%; }
+  25%{ left: 0%;}
+  30%{ left: -100%; width: 100%;}
+  30.0001%{ left: -100%; width: 0%;}
+  100%{ left: 100%; width: 0%;}
+}
+
+/*page Infantil*/
+
+nav:nth-child(3) {
+  display: block;
+  width: 100%;
+  height: 600px;
+  
+  overflow: hidden;
+  position: relative;
+ }
+
+ nav:nth-child(3) > *{
+  display: block;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  animation: slide 10s infinite;
+  position: absolute;
+ }
+  .infantil>slide:nth-child(1){
+    animation-delay: -1s;
+    background-image: url(../assets/jefeenpañales.png);
+    background-size: cover;
+    background-position: center;
+  }
+  .infantil>slide:nth-child(2){
+    animation-delay: 2s;
+    background-image: url(../assets/cigueña.png);
+    background-size: cover;
+    background-position: center;
+  }
+  .infantil>slide:nth-child(3){
+    animation-delay: 4s;
+    background-image: url(../assets/villano3.png);
+    background-size: cover;
+    background-position: center;
+  }
+  .infantil>slide:nth-child(4){
+    animation-delay: 6s;
+    background-image: url(../assets/oleinfantil.png);
+    background-size: cover;
+    background-position: center;
+  }
+  .infantil>slide:nth-child(5){
+    animation-delay: 8s;
+    background-image: url(../assets/car3.png);
+    background-size: cover;
+    background-position: center;
+  }
+  .infantil>slide:nth-child(6){
+    animation-delay: 10s;
+    background-image: url(../assets/benji.png);
+    background-size: cover;
+    background-position: center;
+  
+  }
+slide p {
+  font-family: Comfortaa;
+  font-size: 80px;
+  text-align: center;
+  display:inline-block;
+  width: 100%;
+  margin-top: 10px;
+  color: white;
+  background-color: transparent;
+}
+@keyframes slide {
+  0%{ left: 200%; width: 100%;}
+  5%{ left: 0%; }
+  25%{ left: 0%;}
+  30%{ left: -100%; width: 100%;}
+  30.0001%{ left: -100%; width: 0%;}
+  100%{ left: 100%; width: 0%;}
+}
+
+/*page Fantasia*/
+
+nav:nth-child(3) {
+  display: block;
+  width: 100%;
+  height: 600px;
+  
+  overflow: hidden;
+  position: relative;
+ }
+
+ nav:nth-child(3) > *{
+  display: block;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  animation: slide 10s infinite;
+  position: absolute;
+ }
+  .fantasia>slide:nth-child(1){
+    animation-delay: -1s;
+    background-image: url(../assets/labellafantasia.png);
+    background-size: cover;
+    background-position: center;
+  }
+  .fantasia>slide:nth-child(2){
+    animation-delay: 2s;
+    background-image: url(../assets/pirats.png);
+    background-size: cover;
+    background-position: center;
+  }
+  .fantasia>slide:nth-child(3){
+    animation-delay: 4s;
+    background-image: url(../assets/latorreoscura.png);
+    background-size: cover;
+    background-position: center;
+  }
+  .fantasia>slide:nth-child(4){
+    animation-delay: 6s;
+    background-image: url(../assets/7deseos.png);
+    background-size: cover;
+    background-position: center;
+  }
+  .fantasia>slide:nth-child(5){
+    animation-delay: 8s;
+    background-image: url(../assets/laformadelagua.png);
+    background-size: cover;
+    background-position: center;
+  }
+  .fantasia>slide:nth-child(6){
+    animation-delay: 10s;
+    background-image: url(../assets/valerian.png);
+    background-size: cover;
+    background-position: center;
+  
+  }
+slide p {
+  font-family: Comfortaa;
+  font-size: 80px;
+  text-align: center;
+  display:inline-block;
+  width: 100%;
+  margin-top: 10px;
+  color: white;
+  background-color: transparent;
+}
+@keyframes slide {
+  0%{ left: 200%; width: 100%;}
+  5%{ left: 0%; }
+  25%{ left: 0%;}
+  30%{ left: -100%; width: 100%;}
+  30.0001%{ left: -100%; width: 0%;}
+  100%{ left: 100%; width: 0%;}
+}
+
+/*page Terror*/
+
+nav:nth-child(3) {
+  display: block;
+  width: 100%;
+  height: 600px;
+  
+  overflow: hidden;
+  position: relative;
+ }
+
+ nav:nth-child(3) > *{
+  display: block;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  animation: slide 10s infinite;
+  position: absolute;
+ }
+  .terror>slide:nth-child(1){
+    animation-delay: -1s;
+    background-image: url(../assets/satanic.jpg);
+    background-size: cover;
+    background-position: center;
+  }
+  .terror>slide:nth-child(2){
+    animation-delay: 2s;
+    background-image: url(../assets/lamorgue.jpg);
+    background-size: cover;
+    background-position: center;
+  }
+  .terror>slide:nth-child(3){
+    animation-delay: 4s;
+    background-image: url(../assets/viral.jpg);
+    background-size: cover;
+    background-position: center;
+  }
+  .terror>slide:nth-child(4){
+    animation-delay: 6s;
+    background-image: url(../assets/anabel.jpg);
+    background-size: cover;
+    background-position: center;
+  }
+  .terror>slide:nth-child(5){
+    animation-delay: 8s;
+    background-image: url(../assets/melanie.jpg);
+    background-size: cover;
+    background-position: center;
+  }
+  .terror>slide:nth-child(6){
+    animation-delay: 10s;
+    background-image: url(../assets/ritual.png);
+    background-size: cover;
+    background-position: center;
+  
+  }
+slide p {
+  font-family: Comfortaa;
+  font-size: 80px;
+  text-align: center;
+  display:inline-block;
+  width: 100%;
+  margin-top: 10px;
+  color: white;
+  background-color: transparent;
+}
+@keyframes slide {
+  0%{ left: 200%; width: 100%;}
+  5%{ left: 0%; }
+  25%{ left: 0%;}
+  30%{ left: -100%; width: 100%;}
+  30.0001%{ left: -100%; width: 0%;}
+  100%{ left: 100%; width: 0%;}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
