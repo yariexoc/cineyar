@@ -121,8 +121,294 @@ section li h1{
  text-align: center;
  border: solid 10px black;
  position: relative;
+}
 
+.peli1{
+  position: absolute;
+  left: 0px;
+  top: 40px;
+  right: 0px;
+  bottom: 0px;
+  margin: auto;
+  float: left;
+  overflow: hidden;
+  width: 290px;
+  height: 390px;
+}
+.peli1>article{
+  position: absolute;
+  top:0px;
+  width: 290px;
+  height: 390px;
+  transform:  rotate(90deg)  translate(-350px,-325px);
+  background: rgba(93, 211, 205,0.7);
+  transition-property: transform ;
+  transition-duration: .5s;
+  overflow: hidden;
 
+}
+.peli1:hover>article{
+  position: absolute;
+  transform: scale(1) rotate(0) ;
+  transition-property: transform;
+  transition-duration: 0.5s;
+}
+.peli1>article>h4{
+  text-align: center;
+  margin-top: 30px;
+  font-size: 25px;
+  font-family: 'Yeon Sung', cursive;
+  color: rgb(6, 13, 14);
+  transform:  rotate(-90deg)  translate(-326px,-325px);
+  transition-duration: .5s;
+  transition-delay: .5s ;
+}
+.peli1:hover>article>h4{
+  transform: rotate(0) translate(0);
+}
+.peli1>article>p{
+  text-align: justify;
+  padding: 15px 15px;
+  color: rgb(6, 13, 14);
+  font-size: 14px;
+  font-family: 'Yeon Sung', cursive;
+  transform: rotate(90deg)  translate(600px,-800px);
+  transition-duration: .5s;
+  transition-delay: .5s; 
+}
+.peli1:hover>article>p{
+  transform: rotate(0) translate(0);
+}
+.peli1>article>a{
+  margin: 25px 100px;
+  margin-top: 350px;
+  padding: 0;
+  background-color: rgb(5, 236, 186);
+  color: rgb(6, 13, 14);
+  transform:scale(0) rotate(360deg);
+  transition-duration: .5s;
+  transition-delay: .5s;
+  font-family: 'Yeon Sung', cursive; 
+}
+.peli1:hover>article>a{
+  transform: translateY(0px);
+  transform:scale(1) rotate(0deg);
+}
+
+.peli2{
+  position: absolute;
+  left: 0px;
+  top: 40px;
+  right: 0px;
+  bottom: 0px;
+  margin: auto;
+  float: left;
+  overflow: hidden;
+  width: 290px;
+  height: 390px;
+}
+.peli2>article{
+  position: absolute;
+  top:0px;
+  width: 290px;
+  height: 390px;
+  transform:  rotate(90deg)  translate(-350px,-325px);
+  background: rgba(93, 211, 205,0.7);
+  transition-property: transform ;
+  transition-duration: .5s;
+  overflow: hidden;
+
+}
+.peli2:hover>article{
+  position: absolute;
+  transform: scale(1) rotate(0) ;
+  transition-property: transform;
+  transition-duration: 0.5s;
+}
+.peli2>article>h4{
+  text-align: center;
+  margin-top: 30px;
+  font-size: 25px;
+  font-family: 'Yeon Sung', cursive;
+  color: rgb(6, 13, 14);
+  transform:  rotate(-90deg)  translate(-326px,-325px);
+  transition-duration: .5s;
+  transition-delay: .5s ;
+}
+.peli2:hover>article>h4{
+  transform: rotate(0) translate(0);
+}
+.peli2>article>p{
+  text-align: justify;
+  padding: 15px 15px;
+  color: rgb(6, 13, 14);
+  font-size: 14px;
+  font-family: 'Yeon Sung', cursive;
+  transform: rotate(90deg)  translate(600px,-800px);
+  transition-duration: .5s;
+  transition-delay: .5s; 
+}
+.peli2:hover>article>p{
+  transform: rotate(0) translate(0);
+}
+.peli2>article>a{
+  margin: 25px 100px;
+  margin-top: 350px;
+  padding: 0;
+  background-color: rgb(5, 236, 186);
+  color: rgb(6, 13, 14);
+  transform:scale(0) rotate(360deg);
+  transition-duration: .5s;
+  transition-delay: .5s;
+  font-family: 'Yeon Sung', cursive; 
+}
+.peli2:hover>article>a{
+  transform: translateY(0px);
+  transform:scale(1) rotate(0deg);
+}
+
+.peli3{
+  position: absolute;
+  left: 0px;
+  top: 40px;
+  right: 0px;
+  bottom: 0px;
+  margin: auto;
+  float: left;
+  overflow: hidden;
+  width: 290px;
+  height: 390px;
+}
+.peli3>article{
+  position: absolute;
+  top:0px;
+  width: 290px;
+  height: 390px;
+  transform:  rotate(90deg)  translate(-350px,-325px);
+  background: rgba(93, 211, 205,0.7);
+  transition-property: transform ;
+  transition-duration: .5s;
+  overflow: hidden;
+
+}
+.peli3:hover>article{
+  position: absolute;
+  transform: scale(1) rotate(0) ;
+  transition-property: transform;
+  transition-duration: 0.5s;
+}
+.peli3>article>h4{
+  text-align: center;
+  margin-top: 30px;
+  font-size: 25px;
+  font-family: 'Yeon Sung', cursive;
+  color: rgb(6, 13, 14);
+  transform:  rotate(-90deg)  translate(-326px,-325px);
+  transition-duration: .5s;
+  transition-delay: .5s ;
+}
+.peli3:hover>article>h4{
+  transform: rotate(0) translate(0);
+}
+.peli3>article>p{
+  text-align: justify;
+  padding: 15px 15px;
+  color: rgb(6, 13, 14);
+  font-size: 14px;
+  font-family: 'Yeon Sung', cursive;
+  transform: rotate(90deg)  translate(600px,-800px);
+  transition-duration: .5s;
+  transition-delay: .5s; 
+}
+.peli3:hover>article>p{
+  transform: rotate(0) translate(0);
+}
+.peli3>article>a{
+  margin: 25px 100px;
+  margin-top: 350px;
+  padding: 0;
+  background-color: rgb(5, 236, 186);
+  color: rgb(6, 13, 14);
+  transform:scale(0) rotate(360deg);
+  transition-duration: .5s;
+  transition-delay: .5s;
+  font-family: 'Yeon Sung', cursive; 
+}
+.peli3:hover>article>a{
+  transform: translateY(0px);
+  transform:scale(1) rotate(0deg);
+}
+
+.peli4{
+  position: absolute;
+  left: 0px;
+  top: 40px;
+  right: 0px;
+  bottom: 0px;
+  margin: auto;
+  float: left;
+  overflow: hidden;
+  width: 290px;
+  height: 390px;
+}
+.peli4>article{
+  position: absolute;
+  top:0px;
+  width: 290px;
+  height: 390px;
+  transform:  rotate(90deg)  translate(-350px,-325px);
+  background: rgba(93, 211, 205,0.7);
+  transition-property: transform ;
+  transition-duration: .5s;
+  overflow: hidden;
+
+}
+.peli4:hover>article{
+  position: absolute;
+  transform: scale(1) rotate(0) ;
+  transition-property: transform;
+  transition-duration: 0.5s;
+}
+.peli4>article>h4{
+  text-align: center;
+  margin-top: 30px;
+  font-size: 25px;
+  font-family: 'Yeon Sung', cursive;
+  color: rgb(6, 13, 14);
+  transform:  rotate(-90deg)  translate(-326px,-325px);
+  transition-duration: .5s;
+  transition-delay: .5s ;
+}
+.peli4:hover>article>h4{
+  transform: rotate(0) translate(0);
+}
+.peli4>article>p{
+  text-align: justify;
+  padding: 15px 15px;
+  color: rgb(6, 13, 14);
+  font-size: 14px;
+  font-family: 'Yeon Sung', cursive;
+  transform: rotate(90deg)  translate(600px,-800px);
+  transition-duration: .5s;
+  transition-delay: .5s; 
+}
+.peli4:hover>article>p{
+  transform: rotate(0) translate(0);
+}
+.peli4>article>a{
+  margin: 25px 100px;
+  margin-top: 350px;
+  padding: 0;
+  background-color: rgb(5, 236, 186);
+  color: rgb(6, 13, 14);
+  transform:scale(0) rotate(360deg);
+  transition-duration: .5s;
+  transition-delay: .5s;
+  font-family: 'Yeon Sung', cursive; 
+}
+.peli4:hover>article>a{
+  transform: translateY(0px);
+  transform:scale(1) rotate(0deg);
 }
 .destacadas section li a{
  color: black;
@@ -138,7 +424,6 @@ section li h1{
  background-color: transparent;
 
 }
-
 footer {
   width: 100%;
   height: 100%;
@@ -246,11 +531,12 @@ nav:nth-child(3) > *{
   background-color: transparent;
   }
 @keyframes slide {
-  0%{ left: -100%}
-  5%{ left: 0; }
-  16%{ left: 0;}
-  18%{ left: -100%}
-  100%{ left: 100%}
+  0%{ left: 200%; width: 100%;}
+  5%{ left: 0%; }
+  25%{ left: 0%;}
+  30%{ left: -100%; width: 100%;}
+  30.0001%{ left: -100%; width: 0%;}
+  100%{ left: 100%; width: 0%;}
 }
 
 /*page Comedia*/
@@ -519,10 +805,13 @@ slide p {
   background-color: transparent;
 }
 .icono {
-  color: red;
+  color: black;
   font-size: 40px;
   transition: .4s;
+  margin:2px,4px, 2px,4px; 
+  
 }
 .icono:hover {
-  color: blue;
+  color: rgb(46, 46, 168);
+ 
 }
