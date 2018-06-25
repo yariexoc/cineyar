@@ -1,7 +1,10 @@
-@import url('https://fonts.googleapis.com/css?family=Titan+One');
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,700');
 *{
   margin: 0px;
-  padding: 0px;  
+  padding: 0px; 
+}
+body {
+  font-family: 'Roboto', sans-serif;
 }
 .Menu{
   background-color: rgb(93, 211, 205);
@@ -9,7 +12,7 @@
 .Menu>ul{
   text-align: center;
   background-color: rgb(93, 211, 205);
-  padding: 15px 15px ;
+  padding: 10px 10px ;
 }
 .Menu>ul:nth-child(1){
   text-align: center;
@@ -19,64 +22,68 @@
   position: relative;
   display: inline-block;
   text-align: center;
-  width: 170px;
-  transition: .3s;
+  width: 175px;
 }
- .Menu img{
+.Menu img{
   height: 100px;
   width:250px;
 
 }
-  .Menu{
-    display:flex;
-		margin:auto;
-		width:100%;
-    font-family: 'Titan One', cursive;
-    font-size: 20px;
+.Menu{
+  display:flex;
+	width:100%;
+  font-size: 25px;
+  font-weight:bold;
 
 }
 .nav > li {
 		float:left;
 }
 .nav li a  {
-		background-color:rgb(93, 211, 205);
-		color:rgb(8, 8, 8);
-		text-decoration:none;
-		padding:10px 10px;
-		display:block;		
+	background-color:rgb(93, 211, 205);
+	color:rgb(8, 8, 8);
+  text-decoration:none;
+  padding:20px;
+  display:block;	
+    	
 
 }
 .nav li a:hover{
-        background-color:#cff8f5;
+  background-color:#cff8f5;
+  border-radius: 10%;
+  
+        
 }
 .barra{
   background-color:rgb(41, 43, 42);
   width: 100%;
   height: 60px;
+  top: 10px;
 }
 .barra h1{
   font-size: 50px;
   text-align: center;
-
 }
 div h1{
 
   background-color: transparent;
-  color: white;
+  color:#aaa;
   padding:  2px;
   
 }
-div h1 i{
- width: 80px;
- height: 30px;
+/****************video taquillero********************/
 
-
-}
-/*video taquillero*/
 .video-responsive{
   position: relative;
+  width: 100%;
+  top: 0px;
+  background-color:rgb(41, 43, 42);
+  left: 0%;
+  right: 0%;
+  bottom: 0px;
 }
 .video-responsive>video{
+  position: relative;
   width: 100%;
   top: 0%;
   left: 0%;
@@ -105,25 +112,15 @@ section li{
   text-align: center;
   border: solid 10px black;
   position: relative;
-
-
 }
-section li a{
-  color: black;
-  background-color: transparent;
-  text-decoration: none;
-  font-size: 15px;
-  font-family: fantasy;
-  text-align: center;
-
-}
-section li h1{
-  color: black;
-  background-color: transparent;
-
-
-}
-
+/**************Destacadas******************/
+.destacadas{
+  width: 100%;
+  height: auto;
+  position: relative;
+  bottom: 0px;
+  
+ }
 .destacadas section li{
  width: 300px;
  height: 400px;
@@ -132,9 +129,10 @@ section li h1{
  text-align: center;
  border: solid 10px black;
  position: relative;
+ background-color: black;
  
 }
-.peli1{
+.peli{
   position: absolute;
   left: 0px;
   top: 40px;
@@ -146,7 +144,7 @@ section li h1{
   width: 320px;
   height: 420px;
 }
-.peli1>article{
+.peli>article{
   position: absolute;
   top:0px;
   width: 310px;
@@ -156,12 +154,13 @@ section li h1{
   transition-duration: .5s;
   overflow: hidden;
 
+
 }
-.peli1:hover>article{
+.peli:hover>article{
   transform: scale(1);
   transition-duration: .5s;
 }
-.peli1>article>h4{
+.peli>article>h4{
   text-align: center;
   margin-top: 30px;
   font-size: 35px;
@@ -169,478 +168,34 @@ section li h1{
   color: rgb(227, 242, 245);
   
 }
-.peli1>article>p{
+.peli>article>p{
   text-align: justify;
-  padding: 15px 15px;
-  margin-top: 10px;
+  padding: 20px 20px;
+  margin-top: 15px;
   color: rgb(227, 242, 245);
   font-size: 15px;
   font-family: Arial, Helvetica, sans-serif;
 
 }
-.peli1>article>a{
-  margin: 25px 100px;
-  margin-top: 200px;
-  padding: 8px;
-  background-color: rgb(50, 51, 51);
-  color: rgb(227, 242, 245);
-  transform: scale(0) translateY(-500px);
-  transition-duration: 8s;
-  transition-delay: 1s;
-  font-family: 'Yeon Sung', cursive; 
-  border-radius: 20%;
-  border: solid 2px rgb(227, 242, 245);
-}
-.peli2{
+.peli>article>a{
   position: absolute;
-  left: 0px;
-  top: 40px;
-  right: 0px;
-  bottom: 0px;
-  margin: auto;
-  float: left;
-  overflow: hidden;
-  width: 320px;
-  height: 420px;
-}
+  left: 130px;
+  top: 21pc;
+  padding: 5px 10px;
+  text-decoration: none;
+  background-color: rgba(69, 165, 165, 0);
+  color: rgb(227, 242, 245);
+  font-family: Arial, Helvetica, sans-serif;
+  border-radius: 10%;
+  border: solid 2px rgb(241, 245, 244);
 
-.peli2>article{
-  position: absolute;
-  top:0px;
-  width: 310px;
-  height: 410px;
-  background: rgba(50, 51, 51, 0.7);
-  transform: scale(0);
-  transition-duration: .5s;
-  overflow: hidden;
-
-}
-.peli2:hover>article{
-  transform: scale(1);
-  transition-duration: .5s;
-}
-.peli2>article>h4{
-  text-align: center;
-  margin-top: 30px;
-  font-size: 35px;
-  font-family: Arial, Helvetica, sans-serif;
-  color: rgb(227, 242, 245);
-}
-.peli2>article>p{
-    text-align: justify;
-    padding: 15px 15px;
-    margin-top: 10px;
-    color: rgb(227, 242, 245);
-    font-size: 15px;
-    font-family: Arial, Helvetica, sans-serif;
-}
-.peli2>article>a{
-  margin: 25px 100px;
-  margin-top: 200px;
-  padding: 8px;
-  background-color: rgb(50, 51, 51);
-  color: rgb(227, 242, 245);
-  transform: scale(0) translateY(-500px);
-  transition-duration: 8s;
-  transition-delay: 1s;
-  font-family: 'Yeon Sung', cursive; 
-  border-radius: 20%;
-  border: solid 2px rgb(227, 242, 245);
-}
-.peli3{
-  position: absolute;
-  left: 0px;
-  top: 40px;
-  right: 0px;
-  bottom: 0px;
-  margin: auto;
-  float: left;
-  overflow: hidden;
-  width: 320px;
-  height: 420px;
-}
-.peli3>article{
-  position: absolute;
-  top:0px;
-  width: 310px;
-  height: 410px;
-  background: rgba(50, 51, 51, 0.7);
-  transform: scale(0);
-  transition-duration: .5s;
-  overflow: hidden;
-
-
-}
-.peli3:hover>article{
-  transform: scale(1);
-  transition-duration: .5s;
-}
-.peli3>article>h4{
-  text-align: center;
-  margin-top: 30px;
-  font-size: 35px;
-  font-family: Arial, Helvetica, sans-serif;
-  color: rgb(227, 242, 245);
-}
-.peli3>article>p{
-  text-align: justify;
-    padding: 15px 15px;
-    margin-top: 10px;
-    color: rgb(227, 242, 245);
-    font-size: 15px;
-    font-family: Arial, Helvetica, sans-serif;
-}
-.peli3>article>a{
-  margin: 25px 100px;
-  margin-top: 200px;
-  padding: 8px;
-  background-color: rgb(50, 51, 51);
-  color: rgb(227, 242, 245);
-  transform: scale(0) translateY(-500px);
-  transition-duration: 8s;
-  transition-delay: 1s;
-  font-family: 'Yeon Sung', cursive; 
-  border-radius: 20%;
-  border: solid 2px rgb(227, 242, 245);
-}
-.peli4{
-  position: absolute;
-  left: 0px;
-  top: 40px;
-  right: 0px;
-  bottom: 0px;
-  margin: auto;
-  float: left;
-  overflow: hidden;
-  width: 320px;
-  height: 420px;
-}
-.peli4>article{
-  position: absolute;
-  top:0px;
-  width: 310px;
-  height: 410px;
-  background: rgba(50, 51, 51, 0.7);
-  transform: scale(0);
-  transition-duration: .5s;
-  overflow: hidden;
-
-}
-.peli4:hover>article{
-  transform: scale(1);
-  transition-duration: .5s;
-}
-.peli4>article>h4{
-  text-align: center;
-  margin-top: 30px;
-  font-size: 35px;
-  font-family: Arial, Helvetica, sans-serif;
-  color: rgb(227, 242, 245);
-}
-.peli4>article>p{
-  text-align: justify;
-  padding: 15px 15px;
-  margin-top: 10px;
-  color: rgb(227, 242, 245);
-  font-size: 15px;
-  font-family: Arial, Helvetica, sans-serif;
-}
-.peli4>article>a{
-  margin: 25px 100px;
-  margin-top: 200px;
-  padding: 8px;
-  background-color: rgb(50, 51, 51);
-  color: rgb(227, 242, 245);
-  transform: scale(0) translateY(-500px);
-  transition-duration: 8s;
-  transition-delay: 1s;
-  font-family: 'Yeon Sung', cursive; 
-  border-radius: 20%;
-  border: solid 2px rgb(227, 242, 245);
-}
-.peli5{
-  position: absolute;
-  left: 0px;
-  top: 40px;
-  right: 0px;
-  bottom: 0px;
-  margin: auto;
-  float: left;
-  overflow: hidden;
-  width: 320px;
-  height: 420px;
-}
-.peli5>article{
-  position: absolute;
-  top:0px;
-  width: 310px;
-  height: 410px;
-  background: rgba(50, 51, 51, 0.7);
-  transform: scale(0);
-  transition-duration: .5s;
-  overflow: hidden;
-
-}
-.peli5:hover>article{
-  transform: scale(1);
-  transition-duration: .5s;
-}
-.peli5>article>h4{
-  text-align: center;
-  margin-top: 30px;
-  font-size: 35px;
-  font-family: Arial, Helvetica, sans-serif;
-  color: rgb(227, 242, 245);
-}
-.peli5>article>p{
-  text-align: justify;
-  padding: 15px 15px;
-  margin-top: 10px;
-  color: rgb(227, 242, 245);
-  font-size: 15px;
-  font-family: Arial, Helvetica, sans-serif;
-}
-.peli5>article>a{
-  margin: 25px 100px;
-  margin-top: 200px;
-  padding: 8px;
-  background-color: rgb(50, 51, 51);
-  color: rgb(227, 242, 245);
-  transform: scale(0) translateY(-500px);
-  transition-duration: 8s;
-  transition-delay: 1s;
-  font-family: 'Yeon Sung', cursive; 
-  border-radius: 20%;
-  border: solid 2px rgb(227, 242, 245);
-}
-.peli6{
-  position: absolute;
-  left: 0px;
-  top: 40px;
-  right: 0px;
-  bottom: 0px;
-  margin: auto;
-  float: left;
-  overflow: hidden;
-  width: 320px;
-  height: 420px;
-}
-.peli6>article{
-  position: absolute;
-  top:0px;
-  width: 310px;
-  height: 410px;
-  background: rgba(50, 51, 51, 0.7);
-  transform: scale(0);
-  transition-duration: .5s;
-  overflow: hidden;
-
-}
-.peli6:hover>article{
-  transform: scale(1);
-  transition-duration: .5s;
-}
-.peli6>article>h4{
-  text-align: center;
-  margin-top: 30px;
-  font-size: 35px;
-  font-family: Arial, Helvetica, sans-serif;
-  color: rgb(227, 242, 245);
-}
-.peli6>article>p{
-  text-align: justify;
-  padding: 15px 15px;
-  margin-top: 10px;
-  color: rgb(227, 242, 245);
-  font-size: 15px;
-  font-family: Arial, Helvetica, sans-serif;
-}
-.peli6>article>a{
-  margin: 25px 100px;
-  margin-top: 200px;
-  padding: 8px;
-  background-color: rgb(50, 51, 51);
-  color: rgb(227, 242, 245);
-  transform: scale(0) translateY(-500px);
-  transition-duration: 8s;
-  transition-delay: 1s;
-  font-family: 'Yeon Sung', cursive; 
-  border-radius: 20%;
-  border: solid 2px rgb(227, 242, 245);
-}
-.peli7{
-  position: absolute;
-  left: 0px;
-  top: 40px;
-  right: 0px;
-  bottom: 0px;
-  margin: auto;
-  float: left;
-  overflow: hidden;
-  width: 320px;
-  height: 420px;
-}
-.peli7>article{
-  position: absolute;
-  top:0px;
-  width: 310px;
-  height: 410px;
-  background: rgba(50, 51, 51, 0.7);
-  transform: scale(0);
-  transition-duration: .5s;
-  overflow: hidden;
-
-}
-.peli7:hover>article{
-  transform: scale(1);
-  transition-duration: .5s;
-}
-.peli7>article>h4{
-  text-align: center;
-  margin-top: 30px;
-  font-size: 35px;
-  font-family: Arial, Helvetica, sans-serif;
-  color: rgb(227, 242, 245);
-}
-.peli7>article>p{
-  text-align: justify;
-  padding: 15px 15px;
-  margin-top: 10px;
-  color: rgb(227, 242, 245);
-  font-size: 15px;
-  font-family: Arial, Helvetica, sans-serif;
-}
-.peli7>article>a{
-  margin: 25px 100px;
-  margin-top: 200px;
-  padding: 8px;
-  background-color: rgb(50, 51, 51);
-  color: rgb(227, 242, 245);
-  transform: scale(0) translateY(-500px);
-  transition-duration: 8s;
-  transition-delay: 1s;
-  font-family: 'Yeon Sung', cursive; 
-  border-radius: 20%;
-  border: solid 2px rgb(227, 242, 245);
-}
-
-.peli8{
-  position: absolute;
-  left: 0px;
-  top: 40px;
-  right: 0px;
-  bottom: 0px;
-  margin: auto;
-  float: left;
-  overflow: hidden;
-  width: 320px;
-  height: 420px;
-}
-.peli8>article{
-  position: absolute;
-  top:0px;
-  width: 310px;
-  height: 410px;
-  background: rgba(50, 51, 51, 0.7);
-  transform: scale(0);
-  transition-duration: .5s;
-  overflow: hidden;
-
-}
-.peli8:hover>article{
-  transform: scale(1);
-  transition-duration: .5s;
-}
-.peli8>article>h4{
-  text-align: center;
-  margin-top: 30px;
-  font-size: 35px;
-  font-family: Arial, Helvetica, sans-serif;
-  color: rgb(227, 242, 245);
-}
-.peli8>article>p{
-  text-align: justify;
-  padding: 15px 15px;
-  margin-top: 10px;
-  color: rgb(227, 242, 245);
-  font-size: 15px;
-  font-family: Arial, Helvetica, sans-serif;
-}
-.peli8>article>a{
-  margin: 25px 100px;
-  margin-top: 200px;
-  padding: 8px;
-  background-color: rgb(50, 51, 51);
-  color: rgb(227, 242, 245);
-  transform: scale(0) translateY(-500px);
-  transition-duration: 8s;
-  transition-delay: 1s;
-  font-family: 'Yeon Sung', cursive; 
-  border-radius: 20%;
-  border: solid 2px rgb(227, 242, 245);
-}
-
-.peli9{
-  position: absolute;
-  left: 0px;
-  top: 40px;
-  right: 0px;
-  bottom: 0px;
-  margin: auto;
-  float: left;
-  overflow: hidden;
-  width: 320px;
-  height: 420px;
-}
-.peli9>article{
-  position: absolute;
-  top:0px;
-  width: 310px;
-  height: 410px;
-  background: rgba(50, 51, 51, 0.7);
-  transform: scale(0);
-  transition-duration: .5s;
-  overflow: hidden;
-
-}
-.peli9:hover>article{
-  transform: scale(1);
-  transition-duration: .5s;
-}
-.peli9>article>h4{
-  text-align: center;
-  margin-top: 30px;
-  font-size: 35px;
-  font-family: Arial, Helvetica, sans-serif;
-  color: rgb(227, 242, 245);
-}
-.peli9>article>p{
-  text-align: justify;
-  padding: 15px 15px;
-  margin-top: 10px;
-  color: rgb(227, 242, 245);
-  font-size: 15px;
-  font-family: Arial, Helvetica, sans-serif;
-}
-.peli9>article>a{
-  margin: 25px 100px;
-  margin-top: 200px;
-  padding: 8px;
-  background-color: rgb(50, 51, 51);
-  color: rgb(227, 242, 245);
-  transform: scale(0) translateY(-500px);
-  transition-duration: 8s;
-  transition-delay: 1s;
-  font-family: 'Yeon Sung', cursive; 
-  border-radius: 20%;
-  border: solid 2px rgb(227, 242, 245);
 }
 .destacadas section li a{
  color: black;
  background-color: transparent;
  text-decoration: none;
  font-size: 15px;
- font-family: fantasy;
+ font-family: 'Yeon Sung', cursive; 
  text-align: center;
 
 }
@@ -652,57 +207,60 @@ section li h1{
 footer {
   width: 100%;
   height: 100%;
-  background:white;
   background-size: cover;
   text-align: center;
-}
-
-
-footer li img{
-  width:80px;
-  height: 80px;
-  background-color: transparent;
-  background: white;
-
 }
 
 footer li{
   width: 30px;
   height: 30px;
-  top: 90px;
+  top: 230px;
   display: inline-block;
   margin: 10px 40px 10px 10px;
   text-align: center;
-  background: white;
   position: relative;
 
 }
-
 .redes footer li{
     width: 30px;
     height: 30px;
     display: inline-block;
-    margin: 5px 5px 5px 5px;
+    margin: 20px 20px 5px 5px;
     text-align: center;
     position: absolute;
-    background: transparent;
+  
 }
+
 .barraredes{
   background-color:rgb(41, 43, 42);
   width: 100%;
-  height: 70px;
-  color: white;
-  font-size: 10px;
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-  text-align: center;
+  height: 250px;
   margin-top: 100px;
+  margin-right: 10px;
+  text-align: center;
+}
+.barraredes>div{
+  background-color:black;
+  width: 100%;
+  height: 60px;
+  
+}
+.barraredes h1{
+  color: black;
+  font-size: 16px;
+  padding-top: 100px;
+  font-weight: 100;
+  font-family: Arial, Helvetica, sans-serif;
+
+
 }
 
 .icono {
-  color: black;
+  color: #aaa;
   font-size: 40px;
   transition: .4s;
   margin:2px,4px, 2px,4px; 
+ 
   
   
 }
@@ -710,7 +268,10 @@ footer li{
   color: rgb(16, 148, 137);
 }
 
-/*page drama*/
+
+
+
+/********************page drama********************/
 
 nav:nth-child(3) {
   display: block;
@@ -735,37 +296,37 @@ nav:nth-child(3) > *{
   }
   .drama>slide:nth-child(1){
     animation-delay: 10s;
-    background-image: url(../assets/elsecretodesusojos.png);
+    background-image: url(../assets/img/elsecretodesusojos.png);
     background-size: cover;
     background-position: center;
   }
   .drama>slide:nth-child(2){
     animation-delay: 8s;
-    background-image: url(../assets/elhilodrama.png);
+    background-image: url(../assets/img/elhilodrama.png);
     background-size: cover;
     background-position: center;
   }
   .drama>slide:nth-child(3){
     animation-delay: 6s;
-    background-image: url(../assets/Logandrama.png);
+    background-image: url(../assets/img/Logandrama.png);
     background-size: cover;
     background-position: center;
   }
   .drama>slide:nth-child(4){
     animation-delay: 4s;
-    background-image: url(../assets/lacabañadrama.png);
+    background-image: url(../assets/img/lacabañadrama.png);
     background-size: cover;
     background-position: center;
   }
   .drama>slide:nth-child(5){
     animation-delay: 2s;
-    background-image: url(../assets/titanicdrama.png);
+    background-image: url(../assets/img/titanicdrama.png);
     background-size: cover;
     background-position: center;
   }
   .drama>slide:nth-child(6){
     animation-delay: 0;
-    background-image: url(../assets/megandrama.png);
+    background-image: url(../assets/img/megandrama.png);
     background-size: cover;
     background-position: center;
   
@@ -830,7 +391,7 @@ nav:nth-child(3) > *{
 
 }
 
-/*page Comedia*/
+/*********************page Comedia**********************/
 
 
   .comedia>slide {
@@ -838,86 +399,86 @@ nav:nth-child(3) > *{
   }
   .comedia>slide:nth-child(1){
     animation-delay: 10s;
-    background-image: url(../assets/conejo,png.jpg);
+    background-image: url(../assets/img/conejo,png.jpg);
     background-size: cover;
     background-position: center;
   }
   .comedia>slide:nth-child(2){
     animation-delay: 8s;
-    background-image: url(../assets/labatalladelossexos.png);
+    background-image: url(../assets/img/labatalladelossexos.png);
     background-size: cover;
     background-position: center;
   }
   .comedia>slide:nth-child(3){
     animation-delay: 6s;
-    background-image: url(../assets/partoesla.jpeg);
+    background-image: url(../assets/img/partoesla.jpeg);
     background-size: cover;
     background-position: center;
   }
   .comedia>slide:nth-child(4){
     animation-delay: 4s;
-    background-image: url(../assets/guerradepapas.png);
+    background-image: url(../assets/img/guerradepapas.png);
     background-size: cover;
     background-position: center;
   }
   .comedia>slide:nth-child(5){
     animation-delay: 2s;
-    background-image: url(../assets/pajarolocoesla.png);
+    background-image: url(../assets/img/pajarolocoesla.png);
     background-size: cover;
     background-position: center;
   }
   .comedia>slide:nth-child(6){
     animation-delay: 0;
-    background-image: url(../assets/suegroesla.jpg);
+    background-image: url(../assets/img/suegroesla.jpg);
     background-size: cover;
     background-position: center;
   
   }
 
-/*page Accion*/
+/********************page Accion***************/
 
   .accion>slide {
     left: -100%;
   }
   .accion>slide:nth-child(1){
     animation-delay: 10s;
-    background-image: url(../assets/tomesla.jpeg);
+    background-image: url(../assets/img/tomesla.jpeg);
     background-size: cover;
     background-position: center;
   }
   .accion>slide:nth-child(2){
     animation-delay: 8s;
-    background-image: url(../assets/elpasajero.png);
+    background-image: url(../assets/img/elpasajero.png);
     background-size: cover;
     background-position: center;
   }
   .accion>slide:nth-child(3){
     animation-delay: 6s;
-    background-image: url(../assets/deepbluesea2.png);
+    background-image: url(../assets/img/deepbluesea2.png);
     background-size: cover;
     background-position: center;
   }
   .accion>slide:nth-child(4){
     animation-delay: 4s;
-    background-image: url(../assets/mazerunner.png);
+    background-image: url(../assets/img/mazerunner.png);
     background-size: cover;
     background-position: center;
   }
   .accion>slide:nth-child(5){
     animation-delay: 2s;
-    background-image: url(../assets/samsom.png);
+    background-image: url(../assets/img/samsom.png);
     background-size: cover;
     background-position: center;
   }
   .accion>slide:nth-child(6){
     animation-delay: 0s;
-    background-image: url(../assets/estoreciencomienza-png.jpg);
+    background-image: url(../assets/img/estoreciencomienza-png.jpg);
     background-size: cover;
     background-position: center;
 
 }
 
-/*page Fantasia*/
+/*************page Fantasia****************/
 
   .fantasia>slide {
    left: -100%;
@@ -925,79 +486,79 @@ nav:nth-child(3) > *{
 
   .fantasia>slide:nth-child(1){
     animation-delay: 10s;
-    background-image: url(../assets/labellaslaider2.jpg);
+    background-image: url(../assets/img/labellaslaider2.jpg);
     background-size: cover;
     background-position: center;
   }
   .fantasia>slide:nth-child(2){
     animation-delay: 8s;
-    background-image: url(../assets/pirats.png);
+    background-image: url(../assets/img/pirats.png);
     background-size: cover;
     background-position: center;
   }
   .fantasia>slide:nth-child(3){
     animation-delay: 6s;
-    background-image: url(../assets/latorreoscura.png);
+    background-image: url(../assets/img/latorreoscura.png);
     background-size: cover;
     background-position: center;
   }
   .fantasia>slide:nth-child(4){
     animation-delay: 4s;
-    background-image: url(../assets/7deseos.png);
+    background-image: url(../assets/img/7deseos.png);
     background-size: cover;
     background-position: center;
   }
   .fantasia>slide:nth-child(5){
     animation-delay: 2s;
-    background-image: url(../assets/laformadelagua.png);
+    background-image: url(../assets/img/laformadelagua.png);
     background-size: cover;
     background-position: center;
   }
   .fantasia>slide:nth-child(6){
     animation-delay: 0s;
-    background-image: url(../assets/valerian.png);
+    background-image: url(../assets/img/valerian.png);
     background-size: cover;
     background-position: center;
   }
 
-/*page Infantil*/
+/************page Infantil****************/
 
  .infantil>slide {
   left: -100%;
 }
   .infantil>slide:nth-child(1){
     animation-delay: 10s;
-    background-image: url(../assets/pitufoshoy2.jpg);
+    background-image: url(../assets/img/pitufoshoy2.jpg);
     background-size: cover;
     background-position: center;
   }
   .infantil>slide:nth-child(2){
     animation-delay: 8s;
-    background-image: url(../assets/cigueña.png);
+    background-image: url(../assets/img/cigueña.png);
     background-size: cover;
     background-position: center;
   }
   .infantil>slide:nth-child(3){
     animation-delay: 6s;
-    background-image: url(../assets/villanoslader.png);
+    background-image: url(../assets/img/villanoslader.png);
     background-size: cover;
     background-position: center;
   }
   .infantil>slide:nth-child(4){
     animation-delay: 4s;
-    background-image: url(../assets/ferdiganhoy.jpg);
+    background-image: url(../assets/img/ferdiganhoy.jpg);
     background-size: cover;
     background-position: center;
   }
   .infantil>slide:nth-child(5){
     animation-delay: 2s;
-    background-image: url(../assets/car3.png);
+    background-image: url(../assets/img/car3.png);
     background-size: cover;
     background-position: center;
   }
   .infantil>slide:nth-child(6){
     animation-delay: 0s;
-    background-image: url(../assets/benji.png);
+    background-image: url(../assets/img/benji.png);
     background-size: cover;
     background-position: center;
  }
@@ -1006,41 +567,309 @@ nav:nth-child(3) > *{
   left: -100%;
  }
 
-  /*page Terror*/
+  /************page Terror**************/
   .terror>slide:nth-child(1){
     animation-delay: 10s;
-    background-image: url(../assets/satanic.jpg);
+    background-image: url(../assets/img/satanic.jpg);
     background-size: cover;
     background-position: center;
   }
   .terror>slide:nth-child(2){
     animation-delay: 8s;
-    background-image: url(../assets/lamorgue.jpg);
+    background-image: url(../assets/img/lamorgue.jpg);
     background-size: cover;
     background-position: center;
   }
   .terror>slide:nth-child(3){
     animation-delay: 6s;
-    background-image: url(../assets/viral.jpg);
+    background-image: url(../assets/img/viral.jpg);
     background-size: cover;
     background-position: center;
   }
   .terror>slide:nth-child(4){
     animation-delay: 4s;
-    background-image: url(../assets/anabel.jpg);
+    background-image: url(../assets/img/anabel.jpg);
     background-size: cover;
     background-position: center;
   }
   .terror>slide:nth-child(5){
     animation-delay: 2s;
-    background-image: url(../assets/melanie.jpg);
+    background-image: url(../assets/img/melanie.jpg);
     background-size: cover;
     background-position: center;
   }
   .terror>slide:nth-child(6){
     animation-delay: 0s;
-    background-image: url(../assets/vivithoy.jpg);
+    background-image: url(../assets/img/vivithoy.jpg);
     background-size: cover;
-    background-position: center;
+    background-position: center; 
+ }
+ header{
+   width: 100%;
+   height: 500px;
+   top: 0px;
+   left: 0px;
+   right: 0px;
+   bottom: 0px;
+ }
+
+.maria>img{
+  position:absolute;
+  top: 170px;
+  right: 0px;
+  bottom: 0px;
+  left: 10px;
+  overflow: hidden;
+  width: 320px;
+  height: 450px;
+  border-radius: 10%;
+}
+.hilo>img{
+  position:absolute;
+  top: 170px;
+  right: 0px;
+  bottom: 0px;
+  left: 10px;
+  overflow: hidden;
+  width: 320px;
+  height: 450px;
+  border-radius: 10%;
+}
+.genero{
+  position: absolute;
+  top:180px;
+  left: 350px;
+  font-size: 20px;
+  color: rgba black;
+}
+.genero:hover{
+  color: rgb(16, 148, 137);
+}
+.a{
+  position: absolute;
+  top:184px;
+  left: 430px;
+  font-size: 16px;
+  font-weight: 100;
+  background: rgba black;
+}
+
+.Audio{
+  position: absolute;
+  top:210px;
+  left: 350px;
+  font-size: 20px;
+  color: rgba black;
+}
+.Audio:hover{
+  color: rgb(16, 148, 137);
+}
+.b{
+  position: absolute;
+  top:214px;
+  left: 430px;
+  font-size: 16px;
+  font-weight: 100;
+  background: rgba black;
+}
+.Calidad{
+  position: absolute;
+  top:240px;
+  left: 350px;
+  font-size: 20px;
+  color: rgba black;
+}
+.Calidad:hover{
+  color: rgb(16, 148, 137);
+}
+.c{
+  position: absolute;
+  top:244px;
+  left: 430px;
+  font-size: 16px;
+  font-weight: 100;
+  background: rgba black;
+}
+.Director{
+  position: absolute;
+  top:270px;
+  left: 350px;
+  font-size: 20px;
+  color: rgba black;
+}
+.Director:hover{
+  color: rgb(16, 148, 137);
+}
+.d{
+  position: absolute;
+  top:275px;
+  left: 430px;
+  font-size: 16px;
+  font-weight: 100;
+  background: rgba black;
+}
+.Elenco{
+  position: absolute;
+  top:300px;
+  left: 350px;
+  font-size: 20px;
+  color: rgba black;
+}
+.Elenco:hover{
+  color: rgb(16, 148, 137);
+}
+.e{
+  position: absolute;
+  top:304px;
+  left: 430px;
+  font-size: 16px;
+  font-weight: 100;
+  color: black;
+  margin-right:20px;
+  text-align:justify;
   
 }
+.Sinopsis{
+  position: absolute;
+  top:360px;
+  left: 750px;
+  font-size: 50px;
+  align-items: center;
+  color: rgba black;
+}
+.Sinopsis:hover{
+ color: rgb(16, 148, 137);
+}
+.resumen{
+  position: absolute;
+  top:430px;
+  left: 350px;
+  font-size: 18px;
+  margin: auto;
+  font-weight: 100;
+  margin-right:20px;
+  text-align:justify;
+  background: rgba black;
+  
+}
+.Titulo{
+  position: absolute;
+  top:630px;
+  left: 680px;
+  font-size: 50px;
+  align-items: center;
+  background: rgba black;
+}
+.Titulo:hover{
+  color: rgb(16, 148, 137);
+}
+
+/**************** Trailers*****************/
+.videotrailer{
+  display: block;
+  width: 76%;
+  height:auto;
+  top: 0px;
+  bottom: 30%;
+  left: 320px;
+  position: relative;
+}
+.videotrailer>video{
+  width: 76%;
+  height: auto;
+  left: 320px;
+  
+}
+
+/********Botones pag********************/
+
+aside{
+  position: relative;
+  width: 200px;
+  height: 50px;
+  
+}
+aside>div{
+  width: 220px;
+  height: 50px;
+  position: absolute;
+  top:50px;
+  border-radius: 5%;
+  left: 24%;
+  text-align: center;
+  Background-color: rgb(16, 148, 137);
+
+}
+aside>div a{
+  text-decoration: none;
+  color: rgb(54, 53, 53);
+  font-size: 30px;
+  font-weight: bold;
+}
+aside>div:hover a{
+  text-decoration: none;
+  color: white;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+aside>nav{
+  width: 220px;
+  height: 50px;
+  position: absolute;
+  top:170px;
+  border-radius: 5%;
+  left: 24%;
+  text-align: center;
+  Background-color: rgb(16, 148, 137);
+}
+aside>nav>a{
+  text-decoration: none;
+  color: rgb(54, 53, 53);
+  font-size: 30px;
+  font-weight: bold;  
+  
+}
+aside>nav:hover>a{
+  color: white;
+}
+aside>article{
+  width: 220px;
+  height: 50px;
+  position: absolute;
+  top:290px;
+  border-radius: 5%;
+  left: 24%;
+  text-align: center;
+  Background-color: rgb(16, 148, 137);
+}
+aside>article>a{
+  text-decoration: none;
+  color: rgb(54, 53, 53);
+  font-size: 30px;
+  font-weight: bold;
+  
+}
+aside>article:hover>a{
+  color:white;
+}
+aside>section{
+  width: 220px;
+  height: 50px;
+  position: absolute;
+  top:410px;
+  border-radius: 5%;
+  left: 24%;
+  Background-color: rgb(16, 148, 137);
+}
+aside>section>a{
+  text-decoration: none;
+  color: rgb(54, 53, 53);
+  font-size: 30px;
+  padding-bottom: 5px;
+  font-weight: bold; 
+} 
+aside>section:hover>a{
+  color:white;
+}
+
